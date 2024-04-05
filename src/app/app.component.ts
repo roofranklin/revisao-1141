@@ -11,5 +11,8 @@ import { RodapeComponent } from './rodape/rodape.component';
   styleUrl: './app.component.sass'
 })
 export class AppComponent {
-  title = 'meu-site';
+  public nome = 'Bruno';
+  public empresa = 'Empresa ABCD';
+  // RETORNA O DIA E HORA LOCAL
+  public data = new Date();
 }
