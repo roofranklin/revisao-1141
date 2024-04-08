@@ -6,7 +6,7 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   imports: [RouterModule],
   templateUrl: './cabecalho.component.html',
-  styleUrl: './cabecalho.component.sass'
+  styleUrl: './cabecalho.component.scss'
 })
 export class CabecalhoComponent {
 

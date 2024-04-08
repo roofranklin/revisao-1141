@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './homepage.component.html',
-  styleUrl: './homepage.component.sass'
+  styleUrl: './homepage.component.scss'
 })
 export class HomepageComponent {
 

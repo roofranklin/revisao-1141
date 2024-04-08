@@ -8,7 +8,7 @@ import { RodapeComponent } from './rodape/rodape.component';
   standalone: true,
   imports: [RouterOutlet, CabecalhoComponent, RodapeComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.sass'
+  styleUrl: './app.component.scss'
 })
 export class AppComponent {
   public nome = 'Bruno';
